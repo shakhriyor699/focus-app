@@ -1,4 +1,5 @@
 import AuthLeftSideBranding from "@/components/auth/AuthLeftSideBranding"
+import { AuthForm } from "@/features/auth/components/AuthForm"
 
 
 const AuthPage = () => {
@@ -8,8 +9,7 @@ const AuthPage = () => {
         <AuthLeftSideBranding />
         <div className="flex items-center justify-center">
           <div className="w-full">
-            {/* <AuthForm mode={mode} /> */}
-            asd
+            <AuthForm />
           </div>
         </div>
       </div>
